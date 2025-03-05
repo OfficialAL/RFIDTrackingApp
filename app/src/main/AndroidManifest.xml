@@ -19,6 +19,7 @@
         <activity android:name=".ui.VirtualDeviceActivity" />
         <activity android:name=".ui.TagListActivity" />
         <activity android:name=".ui.TagDetailActivity" />
+        <activity android:name=".ui.LockedTagActivity" />
         <service android:name=".service.RfidReaderService" />
     </application>
 
