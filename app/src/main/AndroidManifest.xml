@@ -15,6 +15,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".CompassActivity" />
+        <activity android:name=".ui.NfcReaderActivity" />
+        <activity android:name=".ui.VirtualDeviceActivity" />
+        <activity android:name=".ui.TagListActivity" />
+        <activity android:name=".ui.TagDetailActivity" />
+        <service android:name=".service.RfidReaderService" />
     </application>
 
 </manifest>
